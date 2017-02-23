@@ -1,5 +1,5 @@
 
-    # 微信支付测试
+
     from WeixinPay import WeixinPay
     pay = WeixinPay()
     key = 'api_key'
