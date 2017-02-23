@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/python
 import sys
 import random
 import string
@@ -126,7 +127,7 @@ class WeixinPay():
         """
         验证签名
         :param xml: xml 字符串
-        :param key: api_key 或 secret
+        :param sign_key: api_key 或 secret
         :return:
         """
         root = XML.fromstring(xml)
