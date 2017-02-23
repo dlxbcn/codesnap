@@ -1,5 +1,6 @@
-# codesnap
-    from WeixinPay import WeixinPay
+
+    # 微信支付测试
+    from WeixinPay import WeixinPay
     pay = WeixinPay()
     key = 'api_key'
     result = pay.unifiedorder(key, appid='appid', 
