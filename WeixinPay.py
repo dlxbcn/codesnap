@@ -92,7 +92,7 @@ class WeixinPay():
         """
         生成签名
         :param params: 参数字典 {key1: value1, key2: value2}
-        :param key: api_key 或 secret
+        :param sign_key: api_key 或 secret
         :return:
         """
         sorted_params = sorted([(key, str(value)) for key, value in params.iteritems()])
